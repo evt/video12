@@ -5,8 +5,8 @@ import (
 	"encoding/json"
 	"net/http"
 
-	"github.com/evt/video1/config"
-	"github.com/evt/video1/db"
+	"github.com/evt/video2/config"
+	"github.com/evt/video2/db"
 	"github.com/gorilla/mux"
 )
 

@@ -3,7 +3,7 @@ package db
 import (
 	"time"
 
-	"github.com/evt/video1/config"
+	"github.com/evt/video2/config"
 	"github.com/go-pg/pg/v9"
 	_ "github.com/lib/pq"
 )
