@@ -5,10 +5,10 @@ import (
 	"log"
 	"net/http"
 
-	"github.com/evt/video2/config"
-	"github.com/evt/video2/db"
-	"github.com/evt/video2/db/migrations"
-	"github.com/evt/video2/server"
+	"github.com/evt/video8/config"
+	"github.com/evt/video8/db"
+	"github.com/evt/video8/db/migrations"
+	"github.com/evt/video8/server"
 )
 
 var s *server.Server

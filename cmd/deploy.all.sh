@@ -1,5 +1,5 @@
 #!/bin/bash
-source ./env.sh
+source ./env.cloud.sh
 cd ..
 gcloud functions deploy ScheduleCall \
 --runtime go113 \

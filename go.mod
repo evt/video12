@@ -1,4 +1,4 @@
-module github.com/evt/video2
+module github.com/evt/video8
 
 go 1.14
 

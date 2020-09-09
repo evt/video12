@@ -1,7 +1,7 @@
 package db
 
 import (
-	"github.com/evt/video2/model"
+	"github.com/evt/video8/model"
 )
 
 // AddRooms saves a list of rooms in Postgres

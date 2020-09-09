@@ -1,3 +1,3 @@
 #!/bin/bash
-source ./env.sh
+source ./env.local.sh
 go run *.go

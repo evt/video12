@@ -3,14 +3,14 @@ package main
 import (
 	"context"
 	"fmt"
-	"github.com/evt/video2/db/migrations"
+	"github.com/evt/video8/db/migrations"
 	"log"
 	"net/http"
 	"time"
 
-	"github.com/evt/video2/config"
-	"github.com/evt/video2/db"
-	"github.com/evt/video2/server"
+	"github.com/evt/video8/config"
+	"github.com/evt/video8/db"
+	"github.com/evt/video8/server"
 )
 
 func main() {
