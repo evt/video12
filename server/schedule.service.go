@@ -2,6 +2,8 @@ package server
 
 import (
 	"fmt"
+	"github.com/evt/video8/scheduler"
+	"log"
 	"net/http"
 
 	"github.com/pkg/errors"
@@ -48,6 +50,32 @@ func (s *Server) ScheduleCall(w http.ResponseWriter, r *http.Request) {
 		s.error(w, r, err, http.StatusInternalServerError)
 		return
 	}
+	// Schedule cron job
+	if err := s.scheduleJob(rooms); err != nil {
+		s.error(w, r, err, http.StatusInternalServerError)
+		return
+	}
 	s.respond(w, r, rooms, http.StatusOK)
 }
 
+// scheduleJob adds cron job in cloud scheduler
+func (s *Server) scheduleJob(rooms []*model.Room) error {
+	if len(rooms) == 0 {
+		return errors.New("No rooms provided")
+	}
+	for _, room := range rooms {
+		// Create scheduler job
+		callRoomURL := s.config.CallRoomEndpoint + "?call_time=" + room.CallTime
+		if err := s.scheduler.CreateJob(scheduler.CreateJobArgs{
+			RoomNumber:        room.RoomNumber,
+			CallTime:          room.CallTime,
+			CallURL:           callRoomURL,
+			SchedulerLocation: s.config.SchedulerLocation,
+			SchedulerTimezone: s.config.SchedulerTimeZone,
+		}); err != nil {
+			return err
+		}
+		log.Printf("[Room %d] Created scheduler job for wake up time %s", room.RoomNumber, room.CallTime)
+	}
+	return nil
+}

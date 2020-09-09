@@ -20,16 +20,16 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="cf7cf440-96b4-4783-9fc3-4124c1d8cf11" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/cmd/env.cloud.sh" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/cmd/env.local.sh" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/scheduler/scheduler.go" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/cloud.functions.go" beforeDir="false" afterPath="$PROJECT_DIR$/cloud.functions.go" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/cmd/deploy.all.sh" beforeDir="false" afterPath="$PROJECT_DIR$/cmd/deploy.all.sh" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/cmd/env.cloud.sh" beforeDir="false" afterPath="$PROJECT_DIR$/cmd/env.cloud.sh" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/cmd/env.local.sh" beforeDir="false" afterPath="$PROJECT_DIR$/cmd/env.local.sh" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/cmd/env.sh" beforeDir="false" afterPath="$PROJECT_DIR$/cmd/env.sh" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/cmd/main.go" beforeDir="false" afterPath="$PROJECT_DIR$/cmd/main.go" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/cmd/rundev.sh" beforeDir="false" afterPath="$PROJECT_DIR$/cmd/rundev.sh" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/db/migrations/run.go" beforeDir="false" afterPath="$PROJECT_DIR$/db/migrations/run.go" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/db/pg.go" beforeDir="false" afterPath="$PROJECT_DIR$/db/pg.go" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/db/rooms.go" beforeDir="false" afterPath="$PROJECT_DIR$/db/rooms.go" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/config/config.go" beforeDir="false" afterPath="$PROJECT_DIR$/config/config.go" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/go.mod" beforeDir="false" afterPath="$PROJECT_DIR$/go.mod" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/go.sum" beforeDir="false" afterPath="$PROJECT_DIR$/go.sum" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/server/schedule.service.go" beforeDir="false" afterPath="$PROJECT_DIR$/server/schedule.service.go" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/server/server.go" beforeDir="false" afterPath="$PROJECT_DIR$/server/server.go" afterDir="false" />
     </list>
@@ -61,6 +61,7 @@
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
       <recent name="$PROJECT_DIR$/cmd" />
+      <recent name="$PROJECT_DIR$" />
     </key>
   </component>
   <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
@@ -82,9 +83,9 @@
     <integration-enabled>true</integration-enabled>
   </component>
   <component name="WindowStateProjectService">
-    <state x="532" y="232" width="615" height="548" key="find.popup" timestamp="1599674329503">
+    <state x="532" y="232" width="615" height="548" key="find.popup" timestamp="1599683372180">
       <screen x="0" y="23" width="1680" height="967" />
     </state>
-    <state x="532" y="232" width="615" height="548" key="find.popup/0.23.1680.967@0.23.1680.967" timestamp="1599674329503" />
+    <state x="532" y="232" width="615" height="548" key="find.popup/0.23.1680.967@0.23.1680.967" timestamp="1599683372180" />
   </component>
 </project>

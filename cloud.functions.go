@@ -2,6 +2,7 @@ package video2
 
 import (
 	"context"
+	"github.com/evt/video8/scheduler"
 	"log"
 	"net/http"
 
@@ -29,8 +30,14 @@ func init() {
 		log.Fatal(err)
 	}
 
+	// create google cloud scheduler client
+	sch, err := scheduler.Init(ctx)
+	if err != nil {
+		log.Fatal(err)
+	}
+
 	// create new server instance
-	s = server.Init(ctx, cfg, pgDB)
+	s = server.Init(ctx, cfg, pgDB, sch)
 }
 
 // ScheduleCall

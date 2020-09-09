@@ -18,6 +18,13 @@ type Config struct {
 	PgDb                 string `env:"PG_DB"`
 	PgUser               string `env:"PG_USER"`
 	PgPassword           string `env:"PG_PASSWORD"`
+	CallRoomEndpoint     string `env:"CALL_ROOM_ENDPOINT"`
+	SchedulerLocation    string `env:"SCHEDULER_LOCATION"`
+	SchedulerTimeZone    string `env:"SCHEDULER_TIMEZONE"`
+	SchedulerMaxRetryCount  int `env:"SCHEDULER_MAX_RETRY_COUNT"`
+	SchedulerRetryPeriod string `env:"SCHEDULER_RETRY_PERIOD"`
+	CallEndpoint         string `env:"CALL_ENDPOINT"`
+
 }
 
 var (

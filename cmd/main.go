@@ -4,6 +4,7 @@ import (
 	"context"
 	"fmt"
 	"github.com/evt/video8/db/migrations"
+	"github.com/evt/video8/scheduler"
 	"log"
 	"net/http"
 	"time"
@@ -36,8 +37,14 @@ func run() error {
 		log.Fatal(err)
 	}
 
+	// create google cloud scheduler client
+	sch, err := scheduler.Init(ctx)
+	if err != nil {
+		log.Fatal(err)
+	}
+
 	// create new server instance
-	s := server.Init(ctx, cfg, pgDB)
+	s := server.Init(ctx, cfg, pgDB, sch)
 
 	// run http server
 	addr := ":8080"

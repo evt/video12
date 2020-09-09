@@ -7,6 +7,7 @@ import (
 
 	"github.com/evt/video8/config"
 	"github.com/evt/video8/db"
+	"github.com/evt/video8/scheduler"
 	"github.com/gorilla/mux"
 )
 
@@ -16,16 +17,18 @@ type Server struct {
 	config    *config.Config
 	router    *mux.Router
 	db        *db.PgDB
+	scheduler *scheduler.Client
 }
 
 // Init returns new server instance
-func Init(ctx context.Context, config *config.Config, db *db.PgDB) *Server {
+func Init(ctx context.Context, config *config.Config, db *db.PgDB, scheduler *scheduler.Client) *Server {
 	router := mux.NewRouter()
 	s := &Server{
 		context:   ctx,
 		config:    config,
 		router:    router,
 		db:        db,
+		scheduler: scheduler,
 	}
 	s.routes()
 	return s
