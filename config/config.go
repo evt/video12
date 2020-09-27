@@ -24,7 +24,6 @@ type Config struct {
 	SchedulerMaxRetryCount  int `env:"SCHEDULER_MAX_RETRY_COUNT"`
 	SchedulerRetryPeriod string `env:"SCHEDULER_RETRY_PERIOD"`
 	CallEndpoint         string `env:"CALL_ENDPOINT"`
-
 }
 
 var (

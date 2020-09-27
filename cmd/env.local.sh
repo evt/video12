@@ -8,7 +8,7 @@ export PG_DB=wakeup
 export PG_USER=postgres
 export PG_PASSWORD=postgres
 
-export GC_PROJECT=wakeup-290812
+export GC_PROJECT=helical-arcade-290815
 export GC_PROJECT_LOCATION=europe-west1
 
 export CALL_ROOM_ENDPOINT=https://$GC_PROJECT_LOCATION-$GC_PROJECT.cloudfunctions.net/CallRoom

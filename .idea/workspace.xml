@@ -19,7 +19,12 @@
     <select />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="cf7cf440-96b4-4783-9fc3-4124c1d8cf11" name="Default Changelist" comment="" />
+    <list default="true" id="cf7cf440-96b4-4783-9fc3-4124c1d8cf11" name="Default Changelist" comment="">
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/cmd/env.cloud.sh" beforeDir="false" afterPath="$PROJECT_DIR$/cmd/env.cloud.sh" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/cmd/env.local.sh" beforeDir="false" afterPath="$PROJECT_DIR$/cmd/env.local.sh" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/config/config.go" beforeDir="false" afterPath="$PROJECT_DIR$/config/config.go" afterDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -55,11 +60,11 @@
   </component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$" />
       <recent name="$PROJECT_DIR$/cmd" />
       <recent name="$PROJECT_DIR$/db" />
       <recent name="$PROJECT_DIR$/model" />
       <recent name="$PROJECT_DIR$/server" />
-      <recent name="$PROJECT_DIR$" />
     </key>
   </component>
   <component name="RunManager">
@@ -105,11 +110,11 @@
     <integration-enabled>true</integration-enabled>
   </component>
   <component name="WindowStateProjectService">
-    <state x="608" y="236" width="703" height="560" key="find.popup" timestamp="1601216689950">
-      <screen x="0" y="23" width="1920" height="987" />
+    <state x="608" y="236" width="703" height="561" key="find.popup" timestamp="1601222920697">
+      <screen x="0" y="23" width="1920" height="988" />
     </state>
     <state x="532" y="232" width="615" height="548" key="find.popup/0.23.1680.967@0.23.1680.967" timestamp="1599683372180" />
     <state x="608" y="236" width="703" height="560" key="find.popup/0.23.1920.987@0.23.1920.987" timestamp="1601216689950" />
-    <state x="608" y="236" width="703" height="561" key="find.popup/0.23.1920.988@0.23.1920.988" timestamp="1601216610968" />
+    <state x="608" y="236" width="703" height="561" key="find.popup/0.23.1920.988@0.23.1920.988" timestamp="1601222920697" />
   </component>
 </project>

@@ -1,0 +1,54 @@
+{
+	"info": {
+		"_postman_id": "6c219dcf-8b98-4119-9794-6ddf65c7186c",
+		"name": "WakeUp",
+		"schema": "https://schema.getpostman.com/json/collection/v2.0.0/collection.json"
+	},
+	"item": [
+		{
+			"name": "localhost:8080/callroom?wakeup_time=10:00",
+			"request": {
+				"method": "GET",
+				"header": [],
+				"url": {
+					"raw": "https://europe-west1-wakeup-278716.cloudfunctions.net/CallRoom?call_time=20:05",
+					"protocol": "https",
+					"host": [
+						"europe-west1-wakeup-278716",
+						"cloudfunctions",
+						"net"
+					],
+					"path": [
+						"CallRoom"
+					],
+					"query": [
+						{
+							"key": "call_time",
+							"value": "20:05"
+						}
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "localhost:8080/wakeup",
+			"request": {
+				"method": "POST",
+				"header": [],
+				"body": {
+					"mode": "raw",
+					"raw": "[\n\t{\n\t\t\"firstname\": \"Barak\",\n\t\t\"lastname\": \"Obama\",\n\t\t\"call_time\": \"09:00\",\n\t\t\"room_number\": 9\n\t},\n\t{\n\t\t\"firstname\": \"Vladimir\",\n\t\t\"lastname\": \"Putin\",\n\t\t\"call_time\": \"06:00\",\n\t\t\"room_number\": 1\n\t}\n]",
+					"options": {
+						"raw": {
+							"language": "json"
+						}
+					}
+				},
+				"url": "https://europe-west1-wakeup-286404.cloudfunctions.net/ScheduleCall"
+			},
+			"response": []
+		}
+	],
+	"protocolProfileBehavior": {}
+}
