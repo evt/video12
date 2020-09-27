@@ -1,15 +1,15 @@
-package video2
+package video12
 
 import (
 	"context"
-	"github.com/evt/video8/scheduler"
+	"github.com/evt/video12/scheduler"
 	"log"
 	"net/http"
 
-	"github.com/evt/video8/config"
-	"github.com/evt/video8/db"
-	"github.com/evt/video8/db/migrations"
-	"github.com/evt/video8/server"
+	"github.com/evt/video12/config"
+	"github.com/evt/video12/db"
+	"github.com/evt/video12/db/migrations"
+	"github.com/evt/video12/server"
 )
 
 var s *server.Server

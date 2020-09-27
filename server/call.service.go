@@ -7,7 +7,7 @@ import (
 	"github.com/pkg/errors"
 	"golang.org/x/sync/errgroup"
 
-	"github.com/evt/video8/model"
+	"github.com/evt/video12/model"
 )
 
 // CallRoom accepts a request from scheduler and calls all rooms tied to wake up time

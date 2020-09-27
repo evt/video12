@@ -3,7 +3,7 @@ package migrations
 import (
 	"log"
 
-	"github.com/evt/video8/db"
+	"github.com/evt/video12/db"
 	"github.com/go-pg/migrations/v7"
 )
 

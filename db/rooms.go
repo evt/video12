@@ -1,7 +1,7 @@
 package db
 
 import (
-	"github.com/evt/video8/model"
+	"github.com/evt/video12/model"
 	"github.com/go-pg/pg/v9"
 )
 

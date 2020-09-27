@@ -2,13 +2,13 @@ package server
 
 import (
 	"fmt"
-	"github.com/evt/video8/scheduler"
+	"github.com/evt/video12/scheduler"
 	"log"
 	"net/http"
 
 	"github.com/pkg/errors"
 
-	"github.com/evt/video8/model"
+	"github.com/evt/video12/model"
 )
 
 // ScheduleCall accepts a list of rooms to call at certain time, saves them in Postgres and creates scheduler job if not exists yet
