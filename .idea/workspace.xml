@@ -19,18 +19,7 @@
     <select />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="cf7cf440-96b4-4783-9fc3-4124c1d8cf11" name="Default Changelist" comment="">
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/cloud.functions.go" beforeDir="false" afterPath="$PROJECT_DIR$/cloud.functions.go" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/cmd/main.go" beforeDir="false" afterPath="$PROJECT_DIR$/cmd/main.go" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/db/calls.go" beforeDir="false" afterPath="$PROJECT_DIR$/db/calls.go" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/db/migrations/run.go" beforeDir="false" afterPath="$PROJECT_DIR$/db/migrations/run.go" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/db/pg.go" beforeDir="false" afterPath="$PROJECT_DIR$/db/pg.go" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/db/rooms.go" beforeDir="false" afterPath="$PROJECT_DIR$/db/rooms.go" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/server/call.service.go" beforeDir="false" afterPath="$PROJECT_DIR$/server/call.service.go" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/server/schedule.service.go" beforeDir="false" afterPath="$PROJECT_DIR$/server/schedule.service.go" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/server/server.go" beforeDir="false" afterPath="$PROJECT_DIR$/server/server.go" afterDir="false" />
-    </list>
+    <list default="true" id="cf7cf440-96b4-4783-9fc3-4124c1d8cf11" name="Default Changelist" comment="" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -73,6 +62,29 @@
       <recent name="$PROJECT_DIR$" />
     </key>
   </component>
+  <component name="RunManager">
+    <configuration default="true" type="GoApplicationRunConfiguration" factoryName="Go Application">
+      <module name="video8" />
+      <working_directory value="$PROJECT_DIR$" />
+      <go_parameters value="-i" />
+      <kind value="FILE" />
+      <filePath value="$PROJECT_DIR$" />
+      <package value="github.com/evt/video8" />
+      <directory value="$PROJECT_DIR$" />
+      <method v="2" />
+    </configuration>
+    <configuration default="true" type="GoTestRunConfiguration" factoryName="Go Test">
+      <module name="video8" />
+      <working_directory value="$PROJECT_DIR$" />
+      <go_parameters value="-i" />
+      <framework value="gotest" />
+      <kind value="DIRECTORY" />
+      <package value="github.com/evt/video8" />
+      <directory value="$PROJECT_DIR$" />
+      <filePath value="$PROJECT_DIR$" />
+      <method v="2" />
+    </configuration>
+  </component>
   <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
   <component name="TypeScriptGeneratedFilesManager">
     <option name="version" value="3" />
@@ -93,11 +105,11 @@
     <integration-enabled>true</integration-enabled>
   </component>
   <component name="WindowStateProjectService">
-    <state x="608" y="236" width="703" height="561" key="find.popup" timestamp="1601216610968">
-      <screen x="0" y="23" width="1920" height="988" />
+    <state x="608" y="236" width="703" height="560" key="find.popup" timestamp="1601216689950">
+      <screen x="0" y="23" width="1920" height="987" />
     </state>
     <state x="532" y="232" width="615" height="548" key="find.popup/0.23.1680.967@0.23.1680.967" timestamp="1599683372180" />
-    <state x="608" y="236" width="703" height="560" key="find.popup/0.23.1920.987@0.23.1920.987" timestamp="1601212526216" />
+    <state x="608" y="236" width="703" height="560" key="find.popup/0.23.1920.987@0.23.1920.987" timestamp="1601216689950" />
     <state x="608" y="236" width="703" height="561" key="find.popup/0.23.1920.988@0.23.1920.988" timestamp="1601216610968" />
   </component>
 </project>
