@@ -45,3 +45,8 @@ func ScheduleCall(w http.ResponseWriter, r *http.Request) {
 	s.ScheduleCall(w, r)
 }
 
+
+// CallRoom
+func CallRoom(w http.ResponseWriter, r *http.Request) {
+	s.CallRoom(w, r)
+}
